@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #c0c9ee;
+
+  }
+
+  .cabecalho{
+    display: flex;
+    align-items: center;           
+    justify-content: space-between;
+    background-color: #fff3e4;     
+    border-radius: 12px;
+    padding: 20px 10px;
+    margin: 20px auto;
+    max-width: 1800px;
+    box-sizing: border-box;
+  }
+
+
+  .cabecalho nav {
+    display: flex;
+    gap: 30px; 
+  }
+
+  .cabecalho2 {
+    text-align: center;
+  }
+
+  .cabecalho2 meio {
+    justify-content: center;
+  }
+
+  .imagem  {
+  position: relative;
+  top: 50px;
+  left: 195px;
+ }
+
+ .butaoanterior {
+  
+ }
