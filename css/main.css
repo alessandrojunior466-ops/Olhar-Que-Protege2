@@ -1,93 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
+
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    background: #c0c9ee;
-
-  }
-   header { height: 230px;}
-
-  .cabecalho{
-    display: flex;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    align-items: center;           
-    justify-content: space-between;
-    background-color: #fff3e4;     
-    border-radius: 12px;
-    padding: 20px 30px;
-    margin: 20px auto;
-    max-width: 1800px;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
-  .cabecalho nav {
-    display: flex;
-    
-    gap: 30px; 
-  }
+body {
+  background: #c0c9ee;
 
-  .cabecalho2 {
-    text-align: center;
-  }
+}
 
-  .cabecalho2 meio {
-    justify-content: center;
-  }
+header {
+  height: 230px;
+}
 
- 
-.carrossel {
-  width: 1204px;
-  margin: auto;
-  overflow: hidden;
-//overflow-x: scroll;
-  position: relative;
+.cabecalho {
   display: flex;
-    flex-wrap: nowrap;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff3e4;
+  border-radius: 12px;
+  padding: 15px 30px;
+  margin: 56px;
+  max-width: 1800px;
+  box-sizing: border-box;
 }
 
 
-.btn_carrossel {
-font-size: 3rem;
-  color: #000000;
-  background-color: #ffffff99;
-  padding: 0.8rem 1.5rem;
-  border-radius: 100%;
-    position: absolute;
-     top: 40%;
+.cabecalho nav {
+  display: flex;
+  gap: 30px;
 }
 
-.btn_direito {
-   left: 10px;
-}
- .btn_esquerdo{
-  right: 10px;
+.cabecalho2 {
+  text-align: center;
 }
 
-.imagensCarrossel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.cabecalho2 meio {
+  justify-content: center;
 }
 
+ nav a{
+  text-decoration: none;
+ }
 
-.imagensCarrossel img {
-  width: 1204px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 5%;
+ nav a:hover {
+  color: rgb(91, 133, 189);
+ }
+* {
+  box-sizing: border-box
 }
 
 
-.botaossaso{
-  
+.slideshow-container {
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
 }
 
 
- 
+.mySlides {
+  display: none;
+  width: 1400px;
+  border-radius: 200px;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0px 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
