@@ -47,13 +47,14 @@ header {
   justify-content: center;
 }
 
- nav a{
+nav a {
   text-decoration: none;
- }
+}
 
- nav a:hover {
+nav a:hover {
   color: rgb(91, 133, 189);
- }
+}
+
 * {
   box-sizing: border-box
 }
@@ -63,13 +64,13 @@ header {
   max-width: 1400px;
   position: relative;
   margin: auto;
+  border: 20%;
 }
 
 
 .mySlides {
   display: none;
   width: 1400px;
-  border-radius: 200px;
 }
 
 
@@ -141,7 +142,7 @@ header {
 
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.0s;
 }
 
 @keyframes fade {
