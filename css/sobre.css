@@ -133,3 +133,23 @@ nav a:hover {
 .espaco {
   height: 80px;
 }
+
+.Textin2 h2{
+  text-align: center;
+  color: #d8dde6;
+}
+
+.espacina{
+  height: 200px;
+}
+
+.SobreNos{
+  color: #fff;
+  font-size: 20px;
+  text-align: start;
+  width: 1000px;
+}
+
+.SobreNos h2{
+  text-align: center;
+}

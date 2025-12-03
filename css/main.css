@@ -204,3 +204,44 @@ nav a:hover {
   margin-left: 800px;
   margin-top: -160px;
 }
+
+.container-fim{
+    display: flex;
+    position: relative;
+    margin: 50px;
+  }
+  .imagem{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    box-shadow: 10px 10px rgb(255, 255, 255);
+    border-radius: 100%;
+    border: solid #717171 5px;
+    cursor: pointer;
+    transition: transform 0.7s ease opacity 0.3s;
+  }
+  .imagem:hover  {
+    transform: scale(1.8);
+    z-index: 10;
+    opacity: 1;
+  }
+
+.v4 {
+    top: 0;
+    right: 550px;
+    z-index: 1;
+    margin-top: 500px;
+}
+.v5 {
+    top: 120px;
+    right: 150px;
+    z-index: 2; 
+    margin-top: 500px;
+}
+
+.v6 {
+    top: 240px;
+    right: 240px;
+    z-index: 3;
+    margin-top: 500px;
+}
