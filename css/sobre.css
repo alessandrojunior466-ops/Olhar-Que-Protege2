@@ -109,10 +109,20 @@ nav a:hover {
 .desaparecer {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition: opacity 0.6s ease-out, transform 0.8s ease-out;
 }
 
 .desaparecer.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mane{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mane .active{
   opacity: 1;
   transform: translateY(0);
 }
@@ -134,23 +144,37 @@ nav a:hover {
   height: 80px;
 }
 
-.Textin2 h2{
+.Textin2 h2 {
   text-align: center;
   color: #d8dde6;
 }
 
-.espacina{
+.espacina {
   height: 200px;
 }
 
-.SobreNos{
+.SobreNos {
   color: #fff;
   font-size: 26px;
   text-align: start;
-  width: 1000px;
   margin-left: 40px;
 }
 
-.SobreNos h2{
+.SobreNos h2 {
   text-align: center;
+}
+
+.imagemzinha{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.imagemzinha img{
+  margin: 0;
+  width: 800px;
+  border: #fff solid;
+  border-radius: 20px;
+  box-shadow: 0px 20px 30px #000;
 }

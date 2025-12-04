@@ -18,6 +18,7 @@ header {
   height: 230px;
 }
 
+
 .cabecalho {
   display: flex;
   position: fixed;
@@ -28,9 +29,10 @@ header {
   background-color: #fff3e4;
   border-radius: 12px;
   padding: 15px 30px;
-  margin: 56px;
+  margin: 50px;
   max-width: 1800px;
   box-sizing: border-box;
+  margin-top: 200;
 }
 
 
@@ -165,12 +167,15 @@ nav a:hover {
 .quadrado {
   margin: 0;
   width: 1908px;
-  height: 1908px;
+  height: 1600px;
   background: #A2AADB;
   border: #A2AADB solid;
   border-radius: 4%;
   box-shadow: 0px 20px 30px #000;
+  margin-left: 0px;
 }
+
+
 
 .abaixo {
   text-align: center;
@@ -195,7 +200,7 @@ nav a:hover {
   margin-top: 100px;
   border: #fff solid 4px;
   border-radius: 44px;
-    box-shadow: 0px 20px 30px #000;
+  box-shadow: 0px 20px 30px #000;
 }
 
 .textinFinal {
@@ -205,47 +210,3 @@ nav a:hover {
   margin-top: -160px;
 }
 
-.container-fim{
-    display: flex;
-    position: relative;
-    margin: 50px;
-  }
-  .imagem{
-    position: absolute;
-    width: 350px;
-    height: auto;
-    box-shadow: 10px 10px rgb(255, 255, 255);
-    border-radius: 100%;
-    border: solid #717171 5px;
-    cursor: pointer;
-    transition: transform 0.7s ease opacity 0.3s;
-  }
-  .imagem:hover  {
-    transform: scale(1.8);
-    z-index: 10;
-    opacity: 1;
-  }
-
-.v4 {
-    top: 0;
-    right: 550px;
-    z-index: 1;
-    margin-top: 500px;
-}
-.v5 {
-    top: 120px;
-    right: 150px;
-    z-index: 2; 
-    margin-top: 500px;
-}
-
-.v6 {
-    top: 240px;
-    right: 240px;
-    z-index: 3;
-    margin-top: 500px;
-}
-
-.fa-regular fa-house{
-  color: #fff;
-}

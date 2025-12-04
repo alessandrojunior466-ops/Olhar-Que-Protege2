@@ -13,6 +13,11 @@
     margin-top: -70px;
 }
 
+.AreaVd {
+    margin: 0;
+    display: flex;
+}
+
 .Info h1 {
     color: #fff;
     margin-left: 850px;
